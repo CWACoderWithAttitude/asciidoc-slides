@@ -1,0 +1,10 @@
+== Containers - WTF
+Containers are similar to VMs. But way more efficient.   
+VMs share the host systems hardware resources - Containers share the OS kernel.    
+Whereas VMs rely on huge bulky diskimages. Containers on the ohter hand focus on code reuse and effeciency.
+
+=== Basic terms
+To make talk unambiguous some first terms:
+1. Dockerfile - Plaintext file describing the setup, configuration and contents of a docker `Image`
+2. Image - Sharable unit of execution in a container context. read only
+3. Container - The running `Image`
