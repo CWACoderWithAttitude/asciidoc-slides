@@ -1,0 +1,77 @@
+// https://github.com/asciidoctor/asciidoctor-reveal.js/blob/master/examples/speaker-notes.adoc?plain=1
+= DevContainers for Live
+
+== ReCap
+* Containers are very resource efficent    
+* Containers run code in isolation
+* Containers don't clutter your system
+
+== Why 
+Shorter test cycles - immediate feedback
+
+[.notes]
+****
+Testing your code changes before comitting them to git allows for shorter test cycles 
+****
+
+== Why develop in Containers
+[%step]
+* CaC -> Configuration as Code
+* Develop in a prod like setup
+* Enables you to run your code prod like
+* Test your code with prod near setups
+
+=== CaC -> Configuration as Code
+[%step]
+* No local  install
+* All the setup is done in text files. 
+* Dev & Test on target env
+* Easily to put under SourceControl
+* Share yoou exact setup with your m8s
+* Repeatable
+
+
+=== Develop in a prod like setup
+* Use local prod DB from day 1 
+* Use 
+
+=== Enables you to run your code prod like
+* Tools like test containers let you define exact test environments for test execution
+
+=== Test your code with prod like setup
+
+
+=== Isolated Environments
+kdhkdsn   
+
+==== Containers act like very resource efficient virtual machines
+The host system and the container share the same kernel 
+
+* Container definitions are e
+* Do not clutter your machine
+
+
+
+
+== (Dev)Containers for Live
+
+* What is it
+* Key Benefits
+* How
+
+=== What
+
+=== Key
+
+=== How
+
+
+== Slide Two
+
+A Great Story
+
+[.notes]
+--
+* tell anecdote
+* make a point
+--
