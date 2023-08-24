@@ -1,0 +1,6 @@
+=== Basic terms
+Dockerfile - Plaintext file describing the setup, configuration and contents of a docker `Image`   
+Image - Sharable unit of execution in a container context. read only    
+Container - The running `Image`   
+Isolation - Containers have no access to resources of the host system. Nor are services running in a container available from the host. Except you exactly define availabilities.
+Layer - Images are composed by stacking layer on layer
