@@ -1,3 +1,4 @@
 asciidoctor-revealjs*
 .sync/*
+*.html
 .DS_Store

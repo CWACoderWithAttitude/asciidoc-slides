@@ -1,6 +1,6 @@
 = Asciidoctor reveal.js template
 :docinfo: shared
-:author: Marti
+:author: Volkler
 :icons: font
 :imagesdir: images/
 // reveal.js config
@@ -30,6 +30,8 @@ _Press icon:long-arrow-alt-right[] for next slide_
 Our software runs in containers - why shouldn't we think so from day 1?!
 
 include::sections/containers_wtf.adoc[]
+
+include::sections/containers_prosandcons.adoc[]
 
 include::sections/controls.adoc[]
 

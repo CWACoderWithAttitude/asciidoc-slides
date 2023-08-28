@@ -1,0 +1,6 @@
+== Containers - Pros And Cons
+Positive aspects of running containerized software
+
+=== Granularity
+
+Containers usually run only a small part of your app logic.
