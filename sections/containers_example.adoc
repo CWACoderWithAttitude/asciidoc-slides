@@ -1,2 +1,10 @@
 == Containers - Why
-A Container typically runs a single application. Si
+== Examples
+
+Lets run the first container.   
+Lets run a OpenJDK 8 system.
+[source,asciidoc]
+....
+include::../containers_code/Makefile[lines=2]
+include::../containers_code/Makefile[lines=2..4]
+....

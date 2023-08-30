@@ -31,6 +31,8 @@ Our software runs in containers - why shouldn't we think so from day 1?!
 
 include::sections/containers_wtf.adoc[]
 
+include::sections/containers_example.adoc[]
+
 include::sections/containers_prosandcons.adoc[]
 
 include::sections/controls.adoc[]
