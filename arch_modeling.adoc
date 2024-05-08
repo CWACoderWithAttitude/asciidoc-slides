@@ -1,4 +1,4 @@
-= Asciidoctor reveal.js template
+= C4 Architecture modeling and structurizr
 :docinfo: shared
 :author: Volkler
 :icons: font
@@ -27,26 +27,22 @@ _Press icon:long-arrow-alt-right[] for next slide_
 --
 --
 == TL;DR
-Our software runs in containers - why shouldn't we think so from day 1?!
 
-include::sections/containers_all-in-one.adoc[]
+.Software architecture
 
-include::sections/containers_wtf.adoc[]
+C4 models and structurizr
 
-include::sections/containers_why.adoc[]             
 
-include::sections/containers_use_cases.adoc[]
-
-include::sections/containers_example.adoc[]
-
-include::sections/containers_prosandcons.adoc[]
-
+include::arch_modeling/am_disclaimer.adoc[]
+//include::arch_modeling/am_what.adoc[]
+include::arch_modeling/am_why_architecture_modeling.adoc[]
+//include::arch_modeling/am_why.adoc[]
 
 [.white_bg]
 == Resources
 image::giammarco-boscaro-zeH-ljawHtg-unsplash.jpg[background]
 
-=== !
+=== aamaam
 
 * https://docs.asciidoctor.org/asciidoc/latest/[Asciidoctor Docs]
 * https://docs.asciidoctor.org/reveal.js-converter/latest/[Asciidoctor reveal.js Documentation]

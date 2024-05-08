@@ -1,0 +1,37 @@
+== Containers - All In One
+The core function is resource effecient execution of applications.
+
+Important terms:
+- daemon
+- volumes
+- declarative description of images
+- shareable images - registries like dockerhub
+- resource effecient read-only containers
+- layer - 
+
+=== daemon
+The (docker) daemon process runs and manages containers
+
+=== shareable images - registries like dockerhub
+Images can be considered application templates 
+
+=== declarative description of images
+The setup of an Image is described by `Dockerfile` 
+That is an text file containing a sort of blueprint.
+
+=== volumes
+Volumes are the way to store data in docker.
+
+=== resource effecient read-only containers
+A container is a running instance of a docker image
+
+=== Layer
+Images are build from layers. Each build step in a `Dockerfile` results ina new layer.
+
+
+There're a just a few concepts
+=== Use Cases
+* Containers are great for running apps in a deterministic environment   
+* It's easy to run bunch of interconnected containers   
+* Containers can be run without influencing the host system
+* Container images are convenient to share

@@ -28,7 +28,7 @@ include::../css/reveal-override.css[lines=1..6]
 .`docinfo-footer.html`
 [source,html]
 ----
-include::../docinfo-footer.html[lines=1]
+include::docinfo-footer.html[lines=1]
 ----
 .`css/reveal-override.css`
 [source,css]

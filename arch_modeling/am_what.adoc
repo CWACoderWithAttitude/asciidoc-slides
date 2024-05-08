@@ -1,0 +1,26 @@
+== What is Architecture modeling w C4 and Structurizr
+
+=== C4 & Structurizr
+Modeling with C4 and structurizr enables us to describe a software system, its users (human or not) and other (external) systems is uses/interacts with in a textual way.
+
+=== http://c4model.com/[C4 Model]
+
+C4 model was created by [Simon Brown] and offers consitent views on a complex software system
+There're 4 Levels
+[%step]
+* System context
+* Containers
+* Components
+* Code
+
+=== Structurizr
+Structurizr gives us two things:
+
+[%step]
+* a DSL to write down our C4 model and
+* tools to generate views on this model
+
+
+
+
+

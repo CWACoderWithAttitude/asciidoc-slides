@@ -1,0 +1,21 @@
+== Why
+
+=== What is git diff
+Diff is used to show differences in files, folders and commits.   
+That's how you can tell what will be changed with your next commit. Or what ahs been changed between to commits.
+
+=== Why does it matter
+Comparing text files can be really hard. So it's imperative to have as good support as possible.
+
+==== Ex1:
+This is simple one line change shown in git buildin diff:
+
+=== Ex n:
+Changed lines of text in delta:
+
+Well, most git client us do a pretty decent job the
+What's wrong with 
+[source,shell]
+----
+$ git diff
+----

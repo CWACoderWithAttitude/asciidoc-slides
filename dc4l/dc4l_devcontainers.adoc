@@ -1,0 +1,16 @@
+== DC4L > Devcontainers
+[%step]
+* Devconatainers (DCs) is a project invented by MS.
+* DCs consist of one or more containers and setup for Visual Studio Code
+* For the most part IDE means VS Code. But there's a project to use https://www.jetbrains.com/help/idea/connect-to-devcontainer.html#create_dev_container_inside_ide[IntelliJ IDEA]
+* they're described / configured by files in folder `.devcontainer` in your project.
+
+== Requirements
+* VS Code with `ms-vscode-remote.remote-containers`-Plugin - usually bundled with `ms-vscode-remote.vscode-remote-extensionpack`
+* Local docker environment 
+* Honestly: (You don't even need local docker but executing containers on a remote docker host/OpenShift/K8s system is not covered today)
+
+== From Simple to more complex
+https://code.visualstudio.com/docs/devcontainers/create-dev-container
+
+

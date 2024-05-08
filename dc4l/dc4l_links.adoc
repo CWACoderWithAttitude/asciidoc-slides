@@ -1,0 +1,14 @@
+== DC4L > Links
+* https://docs.github.com/de/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers[Github DevContainer Intro]
+* https://containers.dev
+* https://code.visualstudio.com/docs/devcontainers/create-dev-container
+* https://code.visualstudio.com/docs/devcontainers/containers
+* https://de.wikipedia.org/wiki/Docker_(Software)
+* https://microsoft.github.io/code-with-engineering-playbook/developer-experience/devcontainers/
+* https://www.docker.com/resources/what-container/
+* https://dev.to/michidk/dev-containers-open-develop-repeat-h0l
+
+
+[.notes]
+--
+--

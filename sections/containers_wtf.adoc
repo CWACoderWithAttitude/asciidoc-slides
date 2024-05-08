@@ -1,4 +1,14 @@
 == Containers - WTF
 Containers are similar to VMs. But way more efficient.   
+
+=== How
 VMs share the host systems hardware resources - Containers share the OS kernel.    
+
+=== Comparison
 Whereas VMs rely on huge bulky diskimages. Containers on the ohter hand focus on code reuse and effeciency.
+
+=== Use Cases
+* Containers are great for running apps in a deterministic environment   
+* It's easy to run bunch of interconnected containers   
+* Containers can be run without influencing the host system
+* Container images are convenient to share

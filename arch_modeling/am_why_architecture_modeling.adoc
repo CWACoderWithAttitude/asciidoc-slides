@@ -1,0 +1,60 @@
+== Why architecture modelling at all
+
+An architecture model enable us to show an entire software system.
+
+They're can serve as diskussions-grundlage
+
+=== Comparison to Diagramming
+
+[.notes]
+--
+* no misaligned lines
+
+--
+* Architecture modeling is different from diagramming in that it doesn't simply provide you with a bunch of shapes.
+
+=== What diagramming often means
+
+Diagramming very often means providing the users with a number of independant pictures someone composed by sketching shapes and lines.
+
+=== Modeling
+
+Modeling on the other side is abstract description a softare system in an semantic way. 
+
+Diagrams can be derived from this. 
+
+=== Benefits
+
+[.notes]
+--
+Different viwers need different levels of abstraction - more or less details
+but all want correct and consistent information.
+--
+
+For me the most important benefit is you can derive diagrams for different stakeholders.
+
+
+=== Format
+
+Models using the structurizr dsl are simple text files
+
+=== Fexibility
+
+Geneate different vies on your architecture
+- Output can be different formats
+
+=== Improved DX
+
+- Easy editing using your editor
+- Editing support by plugins
+
+=== Location
+
+Store the diagram along with your code. 
+[.notes]
+--
+* you dont have to switch tools (IDE/Editor)
+--
+
+- Add them to you VCS besides code
+- Code is on https://github.com/structurizr/lite[Github > structurizr/lite]

@@ -1,0 +1,29 @@
+== Why
+
+=== Efficiency
+Containers only ship whats needed to execute the contained logic.   
+All containers share the underlying OS.
+
+
+
+=== Environment Drift
+Having a local dev setup as close as possible to production has a significant number of advantages
+
+=== Predictability
+Containers include everything your application needs.   
+Let it be app binaries, libs, config files.   
+Except the operating system.
+
+=== Encapsulation
+A container should deal with a well defined context - a domain.
+
+=== Dependencies
+Resources needed by a container are described in a declarative way.   
+Different execution envs require different cfg values. Containers can be configured in different ways to match those requirements without changing a single of app code
+
+=== Testability
+Nature of declarative configuration has it that it is easy to test a container in different scenarios. Lets say to simulate slow or failing network connections, different runtimes or JDKs.
+
+
+=== Links
+* https://www.netapp.com/devops-solutions/what-are-containers/[What are containers]

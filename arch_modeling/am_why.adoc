@@ -1,0 +1,28 @@
+== Why modeling w c4 & structirizr
+
+Using the c4 model and structurizr has some benefits i like to show
+
+=== Format
+
+Models using the structurizr dsl are simple text files
+
+=== Fexibility
+
+Geneate different vies on your architecture
+- Output can be different formats
+
+=== Improved DX
+
+- Easy editing using your editor
+- Editing support by plugins
+
+=== Location
+
+Store the diagram along with your code. 
+[.notes]
+--
+* you dont have to switch tools (IDE/Editor)
+--
+
+- Add them to you VCS besides code
+- Code is on https://github.com/structurizr/lite[Github > structurizr/lite]

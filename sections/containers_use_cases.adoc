@@ -1,0 +1,6 @@
+== Use Cases
+* Containers are great for running apps in a deterministic environment   
+* It's easy to run bunch of interconnected containers   
+* Containers can be run without influencing the host system
+* Container images are convenient to share
+* Containers run the cloud

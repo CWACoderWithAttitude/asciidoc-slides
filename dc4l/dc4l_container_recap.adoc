@@ -1,0 +1,84 @@
+== Containers - Recap
+[%step]
+* Containers are like VMs - but way more resource efficient.
+* A container runs applications in a scalable way
+* Docker comtainers usually mean linux 
+* Each Container is based on any (Docker-)Images. 
+* An image is build from a `Dockerfile`
+
+=== Dockerfile vs Containers vs Images
+
+Important concepts when dealing with Docker are `Image`, `Dockerfile` and `Container`.
+
+=== Dockerfile
+
+* Dockerfiles are blueprints to build images.
+* They contain an ordered sequence of build steps
+* The sum of all build steps in a `Dockerfile` is called `Image`
+
+=== Dockerfile example
+
+[source, Dockerfile]
+----
+# syntax=docker/dockerfile:1
+
+FROM ubuntu:22.04
+COPY . /app
+RUN make /app
+CMD python /app/app.py
+----
+
+[source, shell]
+----
+$> docker build -t image-tag .
+----
+
+=== Images
+//image::https://docs.docker.com/build/guide/images/layers.png[Dockerfile 2 Image]
+
+=== Images are:
+
+* executables that can be shared
+* read only
+* Similar to other distributsbles they have a name and a version
+* Images are blueprints to build container
+* Built in layers - every build step is reflected by one layer
+
+=== Image Layers
+image::https://docs.docker.com/build/guide/images/cache-bust.png[]
+
+* Layers are cached and will be reused
+* Pro Tip: Try to order build steps according to the propability of change
+
+=== Containers
+Containers are:
+
+* executed images
+* execution process adds a layer on top to persist temp data like logging...
+* run isolated from the host system
+* volatile and should not persist any data
+
+=== Breaking  the Isolation
+
+To make containers usefull they need to be
+a) reachable and 
+
+b) need to be able to access data
+
+
+
+=== Image Build
+image::https://docs.docker.com/build/guide/images/layers.png[Dockerfile 2 Image]
+Images are:
+* executables that can be shared
+* build from `Dockerfiles` - plain text files describing their setup and configuration
+* Images are build in layers - each additional layer modifies / extends the layer it is applied to
+
+
+[.notes]
+--
+* One Container per process / server
+* Containers run isolated applications - usually web applications
+* Containers should be considered volatile and don't persist any data
+
+--

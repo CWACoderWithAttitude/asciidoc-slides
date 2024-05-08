@@ -1,4 +1,4 @@
-= Asciidoctor reveal.js template
+= Git diff improved
 :docinfo: shared
 :author: Volkler
 :icons: font
@@ -27,13 +27,9 @@ _Press icon:long-arrow-alt-right[] for next slide_
 --
 --
 == TL;DR
-Our software runs in containers - why shouldn't we think so from day 1?!
-
-include::sections/containers_all-in-one.adoc[]
-
-include::sections/containers_wtf.adoc[]
-
-include::sections/containers_why.adoc[]             
+Git diff sucks
+include::git_diff/why.adoc[]
+include::git_diff_what.adoc[]
 
 include::sections/containers_use_cases.adoc[]
 
@@ -41,6 +37,19 @@ include::sections/containers_example.adoc[]
 
 include::sections/containers_prosandcons.adoc[]
 
+include::sections/controls.adoc[]
+
+include::sections/text.adoc[]
+
+include::sections/organization.adoc[]
+
+include::sections/customization.adoc[]
+
+include::sections/icons_and_images.adoc[]
+
+include::sections/code.adoc[]
+
+include::sections/plugins.adoc[]
 
 [.white_bg]
 == Resources
