@@ -7,7 +7,7 @@
 * https://microsoft.github.io/code-with-engineering-playbook/developer-experience/devcontainers/
 * https://www.docker.com/resources/what-container/
 * https://dev.to/michidk/dev-containers-open-develop-repeat-h0l
-
+* https://benmatselby.dev/post/vscode-dev-containers[Setting up a VS Code Dev Container]
 
 [.notes]
 --

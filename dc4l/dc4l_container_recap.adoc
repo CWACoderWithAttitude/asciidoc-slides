@@ -6,6 +6,12 @@
 * Each Container is based on any (Docker-)Images. 
 * An image is build from a `Dockerfile`
 
+== Containers - Why
+[%step]
+* Define the execution env for your code in a way that can be store in VCS aka git
+* Don't cluttet your box with different versions of plugins, frameworks and languages
+* Distribute your app easyly within you organisation
+
 === Dockerfile vs Containers vs Images
 
 Important concepts when dealing with Docker are `Image`, `Dockerfile` and `Container`.
@@ -64,7 +70,6 @@ To make containers usefull they need to be
 a) reachable and 
 
 b) need to be able to access data
-
 
 
 === Image Build

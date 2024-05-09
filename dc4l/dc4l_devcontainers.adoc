@@ -10,7 +10,72 @@
 * Local docker environment 
 * Honestly: (You don't even need local docker but executing containers on a remote docker host/OpenShift/K8s system is not covered today)
 
+
+== Setting things up
+
+* You can either decide to set things up manually or assisted by VS Code
+* Or assisted by VS Code
+* For beginners i'd suggest the latter option
+* After gaining some experience you will probably choose the manual approach
+
+== The Devcontainer can be commited
+It doen't really matter which approach you chose. You will end up with a folder `.devcontainer/` in your project.
+This folder goes straight to version control.
+
 == From Simple to more complex
 https://code.visualstudio.com/docs/devcontainers/create-dev-container
+Let's have a look at a quite simple `.devcontainer/devcontainer.json` file:
+
+[source, Dockerfile]
+----
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+	"postCreateCommand": "pip3 install --user -r requirements.txt",
+}
+----
+
+Not very usefull - but a working python 3.12 system
+
+== Include folders on your local machine
+https://code.visualstudio.com/remote/advancedcontainers/add-local-file-mount[Add another local file mount]
+
+[source, Dockerfile]
+----
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+	"postCreateCommand": "pip3 install --user -r requirements.txt",
+    "mounts": [
+        "source=${HOME}/.m2,target=~/.m2,type=bind,consistency=cached",
+    ]
+
+}
+----
+
+== Simple devcontainer with java 17
+
+MS offers a varierty of preconfigurted java images https://hub.docker.com/_/microsoft-devcontainers-java[here]
+https://learn.microsoft.com/de-de/java/openjdk/containers
+Lets show how that works
+[source, Dockerfile]
+----
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+	"postCreateCommand": "pip3 install --user -r requirements.txt",
+    "mounts": [
+        "source=${HOME}/.m2,target=~/.m2,type=bind,consistency=cached",
+    ]
+
+}
+----
+
+
+
+
 
 
