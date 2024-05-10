@@ -1,0 +1,9 @@
+{
+    "name": "Python 3",
+    "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+    "postCreateCommand": "pip3 install --user -r requirements.txt",
+    "mounts": [
+        "source=/Users/volker/.m2,target=/vscode/.m2,type=bind,consistency=cached",
+    ]
+    
+}
